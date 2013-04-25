@@ -34,8 +34,8 @@ PROXYHOST=""
 ###############################################################################
 OE_BASE=${PWD}
 # incremement this to force recreation of config files
-BASE_VERSION=6
-OE_ENV_FILE=~/.oe/environment-angstromv2012.05
+BASE_VERSION=9
+OE_ENV_FILE=~/.oe/environment-angstromv2012.12
 
 if ! git help log | grep -q no-abbrev ; then 
 	echo "Your installed version of git is too old, it lacks --no-abbrev. Please install 1.7.6 or newer"
@@ -63,7 +63,7 @@ function config_oe()
 SCONF_VERSION = "1"
 
 # Where to store sources
-DL_DIR = "${OE_SOURCE_DIR}/downloads"
+DL_DIR = "${OE_BASE}/downloads"
 
 # Where to save shared state
 SSTATE_DIR = "${OE_BUILD_DIR}/build/sstate-cache"
