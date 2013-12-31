@@ -21,5 +21,4 @@ meta-linaro,git://github.com/Angstrom-distribution/meta-linaro.git,dylan,HEAD
 meta-minnow,git://git.yoctoproject.org/meta-minnow,dylan,HEAD
 meta-ros,git://github.com/bmwcarit/meta-ros.git,master,cc10dee5696e914273a8548f85b0c12043919cac
 openembedded-core,git://github.com/Angstrom-distribution/oe-core.git,angstrom-staging-yocto1.4,HEAD
-#meta-openpandora-vendor,git://github.com/openpandora/meta-openpandora-vendor.git,master,HEAD
 meta-openpandora-vendor,git://github.com/openpandora/meta-openpandora-vendor.git,master,HEAD
